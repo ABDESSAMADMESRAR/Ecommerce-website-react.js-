@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e9e9e9;
+  margin: 30px;
+}
+nav {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarmenu {
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 500px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.navbarmenu .link {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.logo2 {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "inika";
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #000;
+}
+.icons {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.heart,
+.cart {
+  width: 27px;
+  height: 27px;
+}
+.heart {
+  margin-right: 60px;
+}
+.cart {
+  margin-right: 60px;
+}
+.logo {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "inika";
+
+  color: #000;
+}
+nav a.active {
+  color: #000;
+  opacity: 1;
+}
+
+.link {
+  color: #000;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: Medium;
+  font-family: "inter";
+  opacity: 0.5;
+  cursor: pointer;
+}
+span {
+  /* display: none; */
+  position: relative;
+  right: 70px;
+  bottom: 5px;
+  color: #fff;
+  font-weight: Medium;
+  font-family: "inter";
+  font-size: 10px;
+}
+/* .Responsive {
+display: flex;
+gap: 10px;
+} */
+.meun,
+.close {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    height: 50px;
+  }
+  .navbarmenu {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .show-meun {
+    display: block;
+  }
+
+  .navbarmenu .link {
+    margin-left: 50px;
+    margin-top: 50px;
+    display: block;
+  }
+
+  .close {
+    display: block;
+    margin-left: 240px;
+    margin-top: 30px;
+  }
+  .logo2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "inika";
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000;
+  }
+  .icons {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .navbar {
+    width: 100%;
+    height: 101px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+  }
+  .link {
+    display: none;
+  }
+
+  .meun {
+    display: block;
+    position: relative;
+    right: 30px;
+  }
+
+  .logo {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "inika";
+
+    color: #000;
+    position: relative;
+  }
+
+  .heart {
+    margin-right: 10px;
+  }
+  .cart {
+    margin-right: 10px;
+  }
+
+  span {
+    /* display: none; */
+    position: relative;
+    right: 20px;
+    bottom: 5px;
+    color: #fff;
+    font-weight: Medium;
+    font-family: "inter";
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  nav {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    height: 50px;
+  }
+  .navbarmenu {
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .show-meun {
+    display: block;
+  }
+  .navbarmenu .link {
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .logo2 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "inika";
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #000;
+  }
+  .icons {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+  .navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "inika";
+
+    color: #000;
+    /* margin-left: 38px; */
+    margin-left: 5px;
+  }
+
+  .heart,
+  .cart {
+    width: 24px;
+    height: 24px;
+  }
+
+  .meun svg,
+  .close svg {
+    width: 25px;
+    height: 25px;
+  }
+}

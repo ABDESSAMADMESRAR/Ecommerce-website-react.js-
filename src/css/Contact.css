@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  font-size: 64;
+  font-family: "volkihon";
+  padding-top: 50px;
+}
+.card-container {
+  background-color: #000000;
+  width: 491px;
+  height: 647px;
+  color: #ffff;
+  border-radius: 10px;
+  padding: 50px;
+}
+.local {
+  margin-top: 130px;
+}
+.cards-container {
+  display: flex;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.Send-Message {
+  width: 214px;
+  height: 54px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-left: 330px;
+}
+.input {
+  width: 250px;
+}
+.input::placeholder {
+  font-size: 12;
+  font-weight: Medium;
+  font-family: "poppins";
+  opacity: 0.5;
+}
+.form-container {
+  margin-top: 80px;
+  margin-left: 10px;
+}
+.form-outline .input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000;
+}
+.form-label {
+  font-size: 12;
+  font-weight: Medium;
+  font-family: "poppins";
+}
+#input {
+  width: 560px;
+}
+
+@media screen and (max-width: 1024px) {
+  .Send-Message {
+    width: 570px;
+
+    margin-left: 3px;
+  }
+  .form-label {
+    font-size: 12;
+    font-weight: Medium;
+    font-family: "poppins";
+    margin-top: 20px;
+  }
+  .input {
+    width: 550px;
+  }
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .card-container {
+    background-color: #000000;
+    width: 680px;
+    height: 550px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+  }
+  .local {
+    margin-top: 90px;
+  }
+  .text {
+    position: relative;
+    top: 90px;
+  }
+
+  .p {
+    position: relative;
+    top: -30px;
+  }
+
+  .cards-container {
+    border-radius: 10px;
+    margin-top: -10px;
+    width: 100%;
+  }
+  .form-container {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .card-container {
+    background-color: #000000;
+    width: 310px;
+    height: 590px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 50px;
+  }
+  .card-container h1 {
+    font-size: 20px;
+    width: 200px;
+  }
+  .input,
+  #input {
+    width: 250px;
+  }
+
+  .Send-Message {
+    width: 250px;
+    margin-right: 5px;
+  }
+}

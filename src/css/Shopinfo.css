@@ -1,0 +1,812 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-home-info img.pr {
+  /* Adjust as needed */
+  cursor: zoom-in; /* Optional: cursor change on hover */
+}
+
+.img-home-info img {
+  width: 600px;
+  height: 671px;
+  margin-left: 70px;
+  margin-top: 80px;
+}
+.img-home-info {
+  display: flex;
+}
+.img-home-info h3 {
+  margin-top: 100px;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 25;
+  font-family: "inter";
+  width: 460px;
+}
+.img-home-info .Button {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 120px;
+  left: 1140px;
+}
+.img-home-info p {
+  position: absolute;
+  font-family: "volkhov";
+  font-size: 25px;
+  font-weight: bold;
+  top: 280px;
+  right: 580px;
+}
+.Counter {
+  position: relative;
+  left: 690px;
+  bottom: 520px;
+}
+.img-home-other-info img {
+  display: flex;
+  width: 80px;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 700px;
+  right: 20px;
+}
+.title-info h3 {
+  display: flex;
+}
+
+.shop-size h3 {
+  font-size: 16;
+  font-family: "volkhov";
+  font-weight: Mixed;
+}
+.shop-size {
+  position: absolute;
+  left: 730px;
+  bottom: 110px;
+}
+
+.shop-size button {
+  margin-left: 10px;
+  padding: 8px;
+
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 7px;
+}
+.shop-size .activationbutton {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+.count {
+  padding: 7px;
+  color: #000;
+  font-size: 20px;
+  position: relative;
+  left: 1px;
+  top: 1px;
+}
+
+.conut-button {
+  display: flex;
+  position: absolute;
+  left: 720px;
+  bottom: 10px;
+}
+
+.conut-button button {
+  border: none;
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+}
+
+.add-cart #cart {
+  border: 1px solid #000;
+  width: 442px;
+  height: 45px;
+  margin-left: 20px;
+  border-radius: 5px;
+  background: transparent;
+}
+.add-cart #cart:hover {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  transition: 0.6s;
+}
+
+.info-prod {
+  position: absolute;
+  left: 720px;
+  top: 660px;
+}
+.info-item {
+  position: absolute;
+  left: 730px;
+  top: 720px;
+}
+
+.info-Item2 {
+  position: absolute;
+  left: 730px;
+  top: 770px;
+}
+
+.info-Payment {
+  position: absolute;
+  left: 730px;
+  top: 830px;
+}
+.footer-Social-media {
+  text-align: center;
+  font-size: 40;
+  font-weight: bold;
+  font-family: "inika";
+}
+
+.line {
+  width: 90%;
+  margin-left: 50px;
+}
+
+.footer2 {
+  text-align: center;
+  font-size: 10;
+  font-weight: Mixed;
+  font-family: "Open Sans";
+}
+
+.footer-icon i {
+  font-size: 30px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  .img-home-info img {
+    width: 526px;
+    height: 672px;
+    margin-left: 120px;
+  }
+  .img-home-other-info {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .img-home-info h3 {
+    position: relative;
+    left: 10px;
+    width: 434px;
+    top: 10px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 280px;
+    right: 500px;
+  }
+
+  .img-home-info .Button {
+    width: 45px;
+    height: 45px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+  }
+
+  .Counter {
+    width: 580px;
+    position: relative;
+    left: 640px;
+    bottom: 500px;
+  }
+  .shop-size {
+    position: absolute;
+    left: 690px;
+    top: 450px;
+  }
+  .conut-button .Quantity {
+    width: 50px;
+    height: 50px;
+  }
+  .conut-button {
+    width: 500px;
+    position: relative;
+    left: 680px;
+    bottom: 800px;
+  }
+
+  .info-prod {
+    position: relative;
+    left: 640px;
+    top: -740px;
+  }
+
+  .info-item {
+    position: relative;
+    left: 80px;
+    top: -700px;
+  }
+
+  .info-Item2 {
+    position: relative;
+    left: 650px;
+    top: -690px;
+  }
+  .info-Payment {
+    position: relative;
+    left: 40px;
+    top: -560px;
+  }
+
+  footer {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .img-home-info img {
+    width: 526px;
+    height: 672px;
+    margin-left: 120px;
+  }
+  .img-home-other-info {
+    margin-left: 40px;
+    margin-top: 10px;
+  }
+  .img-home-info h3 {
+    position: absolute;
+    right: 190px;
+    width: 434px;
+    top: 720px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 880px;
+    right: 580px;
+  }
+
+  .img-home-info .Button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 730px;
+    left: 500px;
+  }
+
+  .Counter {
+    width: 580px;
+    position: relative;
+    left: 90px;
+    top: 160px;
+  }
+  .shop-size {
+    position: absolute;
+    left: 150px;
+    bottom: 80px;
+  }
+
+  .conut-button {
+    position: absolute;
+    left: 110px;
+    bottom: -10px;
+  }
+
+  .info-prod {
+    position: absolute;
+    left: 190px;
+    top: 1280px;
+  }
+
+  .info-item {
+    position: absolute;
+    left: 195px;
+    top: 1325px;
+  }
+
+  .info-Item2 {
+    position: absolute;
+    left: 195px;
+    top: 1370px;
+  }
+  .info-Payment {
+    position: absolute;
+    left: 100px;
+    top: 1480px;
+  }
+
+  footer {
+    margin-top: 400px;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .img-home-info img {
+    width: 526px;
+    height: 672px;
+    margin-left: 160px;
+  }
+  .img-home-other-info {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .img-home-info h3 {
+    position: absolute;
+    left: 150px;
+    width: 434px;
+    top: 720px;
+  }
+
+  .shop-size {
+    position: absolute;
+    left: 180px;
+    top: 980px;
+  }
+  .Counter {
+    width: 550px;
+    position: relative;
+    left: 150px;
+    top: 140px;
+  }
+  .conut-button {
+    position: absolute;
+    left: 180px;
+    bottom: -70px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 875px;
+    right: 620px;
+  }
+
+  .info-prod {
+    position: absolute;
+    left: 190px;
+    top: 1160px;
+  }
+
+  .info-item {
+    position: absolute;
+    left: 195px;
+    top: 1210px;
+  }
+
+  .info-Item2 {
+    position: absolute;
+    left: 195px;
+    top: 1250px;
+  }
+  .info-Payment {
+    position: absolute;
+    left: 170px;
+    top: 1340px;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .shop-size {
+    position: relative;
+    left: 180px;
+  }
+  .Counter {
+    width: 550px;
+    position: relative;
+    left: 150px;
+    top: 140px;
+  }
+  .conut-button {
+    position: absolute;
+    left: 180px;
+    top: 1090px;
+  }
+
+  .info-item {
+    position: absolute;
+    left: 195px;
+    top: 1210px;
+  }
+
+  .info-Item2 {
+    position: absolute;
+    left: 195px;
+    top: 1250px;
+  }
+  .info-Payment {
+    position: absolute;
+    left: 170px;
+    top: 1340px;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .shop-size {
+    position: absolute;
+    left: 180px;
+    bottom: 2px;
+  }
+  .Counter {
+    width: 550px;
+    position: relative;
+    left: 150px;
+    top: 140px;
+  }
+  .conut-button {
+    position: absolute;
+    left: 180px;
+    bottom: -70px;
+  }
+
+  .info-item {
+    position: absolute;
+    left: 195px;
+    top: 1210px;
+  }
+
+  .info-Item2 {
+    position: absolute;
+    left: 195px;
+    top: 1250px;
+  }
+  .info-Payment {
+    position: absolute;
+    left: 170px;
+    top: 1340px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .img-home-info img {
+    width: 500px;
+    height: 672px;
+    margin-left: 120px;
+  }
+  .img-home-other-info {
+    margin-left: 40px;
+    margin-top: 20px;
+  }
+
+  .img-home-info h3 {
+    position: absolute;
+    right: 180px;
+    width: 434px;
+    top: 720px;
+  }
+
+  .shop-size {
+    position: absolute;
+    left: 150px;
+    top: 980px;
+  }
+
+  .Counter {
+    width: 550px;
+    position: relative;
+    left: 110px;
+    top: 140px;
+  }
+  .conut-button {
+    position: absolute;
+    left: 140px;
+    bottom: -200px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 875px;
+    right: 620px;
+  }
+
+  .info-prod {
+    position: absolute;
+    left: 150px;
+    top: 1160px;
+  }
+
+  .info-item {
+    position: absolute;
+    left: 150px;
+    top: 1210px;
+  }
+
+  .info-Item2 {
+    position: absolute;
+    left: 150px;
+    top: 1240px;
+  }
+  .info-Payment {
+    width: 600px;
+    position: absolute;
+    left: 100px;
+    top: 1340px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 875px;
+    right: 570px;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .img-home-info img {
+    width: 300px;
+    height: 300px;
+    margin-left: 85px;
+  }
+  .img-home-other-info {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 360px;
+  }
+
+  .img-home-info h3 {
+    width: 300px;
+
+    position: absolute;
+
+    left: 10px;
+    top: 470px;
+  }
+  .img-home-info .Button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 480px;
+    left: 260px;
+  }
+
+  .shop-size {
+    position: absolute;
+    left: 40px;
+    top: 800px;
+  }
+  .price {
+    margin-bottom: 26px;
+  }
+  .Counter {
+    width: 400px;
+    position: relative;
+    left: 10px;
+    top: 300px;
+  }
+  .conut-button {
+    width: 30px;
+    position: absolute;
+    left: 30px;
+    top: 900px;
+  }
+  .add-cart #cart {
+    width: 300px;
+  }
+
+  .info-prod {
+    width: 360px;
+    position: absolute;
+    left: 30px;
+    top: 1000px;
+  }
+
+  .info-item {
+    width: 360px;
+    position: absolute;
+    left: 30px;
+    top: 1040px;
+  }
+
+  .info-Item2 {
+    width: 360px;
+    position: absolute;
+    left: 30px;
+    top: 1080px;
+  }
+  .info-Payment {
+    width: 350px;
+    position: absolute;
+    left: 20px;
+    top: 1130px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 660px;
+    right: 330px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .img-home-info img {
+    width: 300px;
+    height: 300px;
+    margin-left: 85px;
+  }
+  .img-home-other-info {
+    margin-left: 20px;
+    margin-top: 360px;
+  }
+  .img-home-other-info img {
+    width: 80px;
+    height: 80px;
+  }
+  .img-home-info h3 {
+    width: 270px;
+
+    position: absolute;
+
+    left: 10px;
+    top: 470px;
+  }
+  .img-home-info .Button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 480px;
+    left: 220px;
+  }
+
+  .shop-size {
+    position: absolute;
+    left: 30px;
+    top: 800px;
+  }
+
+  .Counter {
+    width: 400px;
+    position: relative;
+    left: 5px;
+    top: 320px;
+  }
+  .conut-button {
+    position: absolute;
+    left: 20px;
+    bottom: -200px;
+  }
+  .add-cart #cart {
+    width: 200px;
+  }
+
+  .info-prod {
+    width: 340px;
+    position: absolute;
+    left: 30px;
+    top: 1030px;
+  }
+
+  .info-item {
+    width: 340px;
+    position: absolute;
+    left: 30px;
+    top: 1070px;
+  }
+
+  .info-Item2 {
+    width: 340px;
+    position: absolute;
+    left: 30px;
+    top: 1120px;
+  }
+  .info-Payment {
+    width: 300px;
+    position: absolute;
+    left: 20px;
+    top: 1190px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 660px;
+    right: 330px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .img-home-info img {
+    width: 340px;
+    height: 300px;
+    margin-left: 85px;
+  }
+  .img-home-other-info {
+    margin-left: 20px;
+    margin-top: 360px;
+  }
+  .img-home-other-info img {
+    width: 80px;
+    height: 80px;
+  }
+  .img-home-info h3 {
+    width: 270px;
+
+    position: absolute;
+
+    left: 10px;
+    top: 470px;
+  }
+  .img-home-info .Button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    top: 480px;
+    left: 220px;
+  }
+
+  .shop-size {
+    position: absolute;
+    left: 30px;
+    top: 800px;
+  }
+
+  .Counter {
+    width: 400px;
+    position: relative;
+    left: 5px;
+    top: 320px;
+  }
+  .conut-button {
+    position: absolute;
+    left: 20px;
+    bottom: -200px;
+  }
+  .add-cart #cart {
+    width: 190px;
+  }
+
+  .info-prod {
+    width: 330px;
+    position: absolute;
+    left: 30px;
+    top: 1030px;
+  }
+
+  .info-item {
+    width: 330px;
+    position: absolute;
+    left: 30px;
+    top: 1070px;
+  }
+
+  .info-Item2 {
+    width: 330px;
+    position: absolute;
+    left: 30px;
+    top: 1120px;
+  }
+  .info-Payment {
+    width: 300px;
+    position: absolute;
+    left: 22px;
+    top: 1190px;
+  }
+
+  .img-home-info p {
+    position: absolute;
+    font-family: "volkhov";
+    font-size: 25px;
+    font-weight: bold;
+    top: 660px;
+    right: 290px;
+  }
+}
