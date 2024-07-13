@@ -417,9 +417,7 @@ left: 60px;
 }
 
 @media screen and (max-width: 428px) {
-  body {
-    overflow: hidden;
-  }
+
 
   .text-home {
     display: flex;
